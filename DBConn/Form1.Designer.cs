@@ -353,7 +353,6 @@ namespace DBConn
             this.database_tbx.Name = "database_tbx";
             this.database_tbx.Size = new System.Drawing.Size(173, 30);
             this.database_tbx.TabIndex = 4;
-            this.database_tbx.Text = "demoex";
             // 
             // pass_tbx
             // 
@@ -362,7 +361,6 @@ namespace DBConn
             this.pass_tbx.Name = "pass_tbx";
             this.pass_tbx.Size = new System.Drawing.Size(173, 30);
             this.pass_tbx.TabIndex = 3;
-            this.pass_tbx.Text = "password";
             this.pass_tbx.UseSystemPasswordChar = true;
             // 
             // user_tbx
@@ -372,7 +370,6 @@ namespace DBConn
             this.user_tbx.Name = "user_tbx";
             this.user_tbx.Size = new System.Drawing.Size(173, 30);
             this.user_tbx.TabIndex = 2;
-            this.user_tbx.Text = "root";
             // 
             // host_tbx
             // 
@@ -381,7 +378,6 @@ namespace DBConn
             this.host_tbx.Name = "host_tbx";
             this.host_tbx.Size = new System.Drawing.Size(173, 30);
             this.host_tbx.TabIndex = 1;
-            this.host_tbx.Text = "localhost";
             // 
             // label4
             // 
@@ -690,9 +686,9 @@ namespace DBConn
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.con_state_lable);
             this.Controls.Add(this.closew_btn);
+            this.Controls.Add(this.page1);
             this.Controls.Add(this.page2);
             this.Controls.Add(this.page3);
-            this.Controls.Add(this.page1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
