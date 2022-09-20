@@ -30,6 +30,7 @@ namespace DBConn
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.closew_btn = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.con_state_lable = new System.Windows.Forms.Label();
@@ -114,7 +115,7 @@ namespace DBConn
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
             this.textBox2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox2.Size = new System.Drawing.Size(634, 315);
+            this.textBox2.Size = new System.Drawing.Size(634, 378);
             this.textBox2.TabIndex = 2;
             // 
             // con_state_lable
@@ -168,7 +169,7 @@ namespace DBConn
             this.Execute_command_btn.Enabled = false;
             this.Execute_command_btn.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Execute_command_btn.ForeColor = System.Drawing.Color.Black;
-            this.Execute_command_btn.Location = new System.Drawing.Point(213, 435);
+            this.Execute_command_btn.Location = new System.Drawing.Point(213, 498);
             this.Execute_command_btn.Name = "Execute_command_btn";
             this.Execute_command_btn.Size = new System.Drawing.Size(114, 33);
             this.Execute_command_btn.TabIndex = 7;
@@ -182,7 +183,7 @@ namespace DBConn
             | System.Windows.Forms.AnchorStyles.Right)));
             this.q_textbox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(168)))), ((int)(((byte)(184)))));
             this.q_textbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q_textbox.Location = new System.Drawing.Point(16, 477);
+            this.q_textbox.Location = new System.Drawing.Point(16, 540);
             this.q_textbox.Multiline = true;
             this.q_textbox.Name = "q_textbox";
             this.q_textbox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -228,7 +229,7 @@ namespace DBConn
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(645, 257);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(645, 320);
             this.tableLayoutPanel1.TabIndex = 13;
             // 
             // Execute_lable
@@ -237,7 +238,7 @@ namespace DBConn
             this.Execute_lable.AutoSize = true;
             this.Execute_lable.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Execute_lable.ForeColor = System.Drawing.Color.Snow;
-            this.Execute_lable.Location = new System.Drawing.Point(15, 440);
+            this.Execute_lable.Location = new System.Drawing.Point(15, 503);
             this.Execute_lable.Name = "Execute_lable";
             this.Execute_lable.Size = new System.Drawing.Size(153, 23);
             this.Execute_lable.TabIndex = 15;
@@ -280,7 +281,7 @@ namespace DBConn
             this.page1.Controls.Add(this.discon_btn);
             this.page1.Location = new System.Drawing.Point(216, 64);
             this.page1.Name = "page1";
-            this.page1.Size = new System.Drawing.Size(683, 612);
+            this.page1.Size = new System.Drawing.Size(683, 675);
             this.page1.TabIndex = 18;
             // 
             // label9
@@ -408,7 +409,7 @@ namespace DBConn
             this.page2.Controls.Add(this.tableLayoutPanel1);
             this.page2.Location = new System.Drawing.Point(216, 64);
             this.page2.Name = "page2";
-            this.page2.Size = new System.Drawing.Size(683, 612);
+            this.page2.Size = new System.Drawing.Size(683, 675);
             this.page2.TabIndex = 19;
             // 
             // last_id_val
@@ -559,7 +560,7 @@ namespace DBConn
             this.page3.Controls.Add(this.textBox2);
             this.page3.Location = new System.Drawing.Point(216, 64);
             this.page3.Name = "page3";
-            this.page3.Size = new System.Drawing.Size(680, 612);
+            this.page3.Size = new System.Drawing.Size(680, 675);
             this.page3.TabIndex = 23;
             // 
             // label3
@@ -622,22 +623,23 @@ namespace DBConn
             this.panel2.Controls.Add(this.nav_to_connection_page_btn);
             this.panel2.Controls.Add(this.nav_to_describe_page_btn);
             this.panel2.Controls.Add(this.nav_to_queries_page_btn);
-            this.panel2.Location = new System.Drawing.Point(0, -5);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(216, 708);
+            this.panel2.Size = new System.Drawing.Size(216, 766);
             this.panel2.TabIndex = 26;
             // 
             // label15
             // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label15.AutoSize = true;
+            this.label15.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.label15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label15.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Snow;
-            this.label15.Location = new System.Drawing.Point(6, 677);
+            this.label15.Location = new System.Drawing.Point(0, 737);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(198, 19);
+            this.label15.Size = new System.Drawing.Size(216, 29);
             this.label15.TabIndex = 20;
             this.label15.Text = "GitHub: xXmelar-ksaXx";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel3
             // 
@@ -677,7 +679,7 @@ namespace DBConn
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(61)))), ((int)(((byte)(92)))));
-            this.ClientSize = new System.Drawing.Size(925, 703);
+            this.ClientSize = new System.Drawing.Size(925, 766);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel2);
@@ -690,6 +692,7 @@ namespace DBConn
             this.Controls.Add(this.page2);
             this.Controls.Add(this.page3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
