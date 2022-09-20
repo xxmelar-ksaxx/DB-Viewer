@@ -4,6 +4,8 @@
 
 DB-Viewer is a desktop application for windows OS. Developed in C# using Windows Forms.
 
+Download installer : [DB-Viewer](https://github.com/xxmelar-ksaxx/DB-Viewer/raw/master/Installer/DB%20Viewer.zip)
+
 ## Connection
 - You may skip the port field.
 - Database field => Database Name.
